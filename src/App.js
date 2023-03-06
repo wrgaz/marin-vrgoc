@@ -3,9 +3,10 @@ import Messages from "./Components/Messages";
 import './App.css';
 import Input from "./Components/Input";
 import randomColorRGB from 'random-color-rgb';
+import generateName from 'sillyname';
 
 
-var generateName = require('sillyname');
+
 
 
 export default class App extends Component {
